@@ -3,7 +3,7 @@ public class RGR{
   public static void main(String[]args){
     Scanner sc = new Scanner(System.in);
     System.out.println("Enter the fucking N for Matrix");
-    int n = nextInt();
+    int n = sc.nextInt();
     int Matrix1 [][] = new int [n][n];
     int Matrix2 [][] = new int [n][n];
     int sum[][] = new int [n][n];
@@ -25,6 +25,7 @@ public class RGR{
       for(int j = 0; j < n; j++){
         System.out.print(sum[i][j]+"\t");
       }
+      System.out.println();
     }
     sc.close();
   }
