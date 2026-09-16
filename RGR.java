@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class RGR{
   public static void main(String[]args){
     Scanner sc = new Scanner(System.in);
-    System.out.println("Enter the fucking N for Matrix");
+    System.out.println("Enter the N for Matrix");
     int n = sc.nextInt();
     int Matrix1 [][] = new int [n][n];
     int Matrix2 [][] = new int [n][n];
